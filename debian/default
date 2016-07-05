@@ -1,0 +1,6 @@
+#
+# journal2gelf startup options
+#
+GRAYLOG_HOST=127.0.0.1
+GRAYLOG_PORT=12201
+

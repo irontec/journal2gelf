@@ -1,0 +1,11 @@
+[Unit]
+Description=Journald to GELF (graylog) log relay service
+
+[Service]
+EnvironmentFile=/etc/default/journal2gelf
+ExecStart=/usr/bin/journal2gelf -s $GRAYLOG_HOST -p $GRAYLOG_PORT -t
+Restart=on-failure
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target

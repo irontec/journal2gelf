@@ -1,0 +1,17 @@
+Source: journal2gelf
+Section: python
+Priority: optional
+Build-Depends: debhelper, dh-python, dh-systemd, pypy, python
+Standards-Version: 3.9.6
+Maintainer: Irontec Package Team <packages@irontec.com>
+Homepage: https://github.com/systemd/journal2gelf
+X-Python-Version: >=2.6
+
+Package: journal2gelf
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}, python-graypy
+Description: journald to Graylog Extended Log Format (GELF) exporter.
+ This package includes the tools required to export log records from
+ journald to graylog2 server as GELF messages.
+ .
+ This package contents are designed to work with Python 2.

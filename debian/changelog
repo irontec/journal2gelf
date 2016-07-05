@@ -1,0 +1,5 @@
+journal2gelf (0.0.3) UNRELEASED; urgency=medium
+
+  * Initial release from Joe Miller github sources.
+
+ -- Ivan Alonso <kaian@irontec.com>  Mon, 5 Jul 2016 11:09:59 +0100
